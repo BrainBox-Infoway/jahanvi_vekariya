@@ -1,0 +1,255 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_section_M3TDzi": {
+      "type": "banner-section",
+      "blocks": {
+        "inner_banner_BfMFxN": {
+          "type": "inner_banner",
+          "settings": {
+            "heading": "Main Heading",
+            "detail": "<p>Awhentag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of the values inside of the tag. Provide the values as a comma-separated list, or separate them using anoroperator.</p>",
+            "button_url": "shopify://collections",
+            "button_text": "Click Here"
+          }
+        }
+      },
+      "block_order": [
+        "inner_banner_BfMFxN"
+      ],
+      "settings": {
+        "background": "shopify://shop_images/avenue-815297_1920.jpg"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_npNYLW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_prjmey": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>Tags are wrapped with curly brace percentage delimiters. The text within the delimiters doesn't produce visible output when rendered.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FEzjgE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>Tags are wrapped with curly brace percentage delimiters. The text within the delimiters doesn't produce visible output when rendered.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NXBKFq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "<p>Tags are wrapped with curly brace percentage delimiters. The text within the delimiters doesn't produce visible output when rendered.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_prjmey",
+        "collapsible_row_FEzjgE",
+        "collapsible_row_NXBKFq"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_TbjWqy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qjyRFa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/terraces-7858669_1920.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify://collections/frontpage",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_H8wKYc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/beautiful-day-at-the-beach.jpg",
+            "image_overlay_opacity": 30,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify://collections/frontpage",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_qjyRFa",
+        "slide_H8wKYc"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "numbers",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "four_col_features_bEbMRc": {
+      "type": "four-col-features",
+      "blocks": {
+        "feature_JciAzF": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/field-6517865_1920.jpg",
+            "description": "<p>Awhentag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of values inside of the tag. </p>"
+          }
+        },
+        "feature_B7znAH": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/field-6517865_1920.jpg",
+            "description": "<p>Awhentag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of values inside of the tag. </p>"
+          }
+        },
+        "feature_hPpNTz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/field-6517865_1920.jpg",
+            "description": "<p>Awhentag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of values inside of the tag. </p>"
+          }
+        },
+        "feature_9PNTgz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/field-6517865_1920.jpg",
+            "description": "<p>Awhentag can accept multiple values. When multiple values are provided, the expression is returned when the variable matches any of values inside of the tag. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_JciAzF",
+        "feature_B7znAH",
+        "feature_hPpNTz",
+        "feature_9PNTgz"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "banner_section_M3TDzi",
+    "image_banner",
+    "featured_collection",
+    "collapsible_content_npNYLW",
+    "slideshow_TbjWqy",
+    "four_col_features_bEbMRc"
+  ]
+}

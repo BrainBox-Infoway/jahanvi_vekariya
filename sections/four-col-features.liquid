@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="inner-feature">
+    {% for block in section.blocks %}
+      <div class="feature">
+        <div class="img-div">
+          <img src="{{ block.settings.image | img_url: 'medium' }}" alt="Feature Image">
+        </div>
+        <div class="content">
+          {{ block.settings.description }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Four Col Features",
+"tag": "section",
+"class": "four_col_feature",
+"max_blocks": 15,
+"settings": [],
+"blocks": [
+  {
+    "type": "feature",
+    "name": "Feature",
+    "limit": 12,
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+      },
+      {
+        "type": "richtext",
+        "label": "Content",
+        "id": "description"
+      }
+    ]
+  }
+],
+"presets": [
+  {
+    "name": "Four Col Features"
+  }
+]
+}
+{% endschema %}

@@ -1,0 +1,76 @@
+<section
+  class="banner-section"
+  style="background-image: url('{{ section.settings.background | img_url: 'medium' }}');"
+>
+  <div class="container">
+    <div class="inner-banner">
+      {% for block in section.blocks %}
+        <div class="sec-head">
+          <h1>{{ block.settings.heading }}</h1>
+        </div>
+        <div class="content">
+          {{ block.settings.detail }}
+        </div>
+        <div class="cta">
+          {% if block.settings.button_url %}
+            <a href="{{ block.settings.button_url }}" class="sec-btn">
+              {% if block.settings.button_text %}
+                {{ block.settings.button_text }}
+              {% endif %}
+            </a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner Section",
+  "tag": "section",
+  "class": "banner-sec",
+  "max_blocks": 1,
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "background-image",
+      "id": "background"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "inner_banner",
+      "name": "Inner Banner",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "label": "Heading",
+          "id": "heading"
+        },
+        {
+          "type": "richtext",
+          "label": "Detail",
+          "id": "detail"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "button_url"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Section"
+    }
+  ]
+}
+{% endschema %}
