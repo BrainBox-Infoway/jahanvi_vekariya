@@ -242,6 +242,21 @@
         "feature_9PNTgz"
       ],
       "settings": {}
+    },
+    "video_7dBwN6": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/beautiful-day-at-the-beach.jpg",
+        "description": "video",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -250,6 +265,7 @@
     "featured_collection",
     "collapsible_content_npNYLW",
     "slideshow_TbjWqy",
-    "four_col_features_bEbMRc"
+    "four_col_features_bEbMRc",
+    "video_7dBwN6"
   ]
 }

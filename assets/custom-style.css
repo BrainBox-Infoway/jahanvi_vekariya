@@ -15,6 +15,7 @@ img {
   padding: 0;
   text-decoration: none;
 }
+
 img {
   vertical-align: bottom;
   width: 100%;
@@ -22,12 +23,14 @@ img {
   object-fit: contain;
   object-position: center;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
 }
+
 /* --------------------------------- */
 .banner-section {
   /* background-image: url(https://cdn.shopify.com/s/files/1/0687/7770/5609/files/avenue-815297_1920.jpg?v=1742207501); */
@@ -38,6 +41,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .banner-section .inner-banner {
   max-width: 750px;
   width: 100%;
@@ -45,23 +49,27 @@ img {
   background-color: azure;
   padding: 35px 55px;
 }
+
 .banner-section .inner-banner .sec-head,
 .banner-section .inner-banner .content {
   display: inline-block;
   width: 100%;
   margin: 0 0 15px;
 }
+
 .banner-section .inner-banner .content p {
   font-size: 18px;
   line-height: 25px;
   color: #121212;
   text-align: justify;
 }
+
 .banner-section .inner-banner .cta {
   width: 100%;
   display: inline-block;
   margin: 10px 0 0;
 }
+
 .banner-section .inner-banner .cta a {
   background-color: #121212;
   padding: 10px 20px;
@@ -73,16 +81,19 @@ img {
   border: 1px solid #121212;
   transition: all 1.5s;
 }
+
 .banner-section .inner-banner .cta a:hover {
   background-color: transparent;
   color: #121212;
 }
+
 /* -------------------------------- */
 .four_col_feature {
   padding: 60px 0;
   width: 100%;
   display: inline-block;
 }
+
 .four_col_feature .inner-feature {
   display: flex;
   width: 100%;
@@ -91,17 +102,42 @@ img {
   justify-content: start;
   flex-wrap: wrap;
 }
+
 .four_col_feature .inner-feature .feature {
   width: calc(100% / 4 - 23px);
   max-width: 350px;
   display: inline-block;
 }
+
 .four_col_feature .inner-feature .feature .img-div,
 .four_col_feature .inner-feature .feature .content {
   display: inline-block;
   width: 100%;
 }
+
 .four_col_feature .inner-feature .feature .content p {
   padding: 14px 0 0;
   line-height: 22px;
+}
+
+@media (max-width: 991px) {
+  .four_col_feature .inner-feature {
+    justify-content: center;
+  }
+
+  .four_col_feature .inner-feature .feature {
+    width: calc(100% / 3 - 23px);
+  }
+}
+
+@media (max-width: 768px) {
+  .four_col_feature .inner-feature .feature {
+    width: calc(100% / 2 - 23px);
+  }
+}
+
+@media (max-width: 560px) {
+  .four_col_feature .inner-feature .feature {
+    width: calc(100% / 1 - 23px);
+  }
 }
